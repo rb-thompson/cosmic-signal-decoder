@@ -10,7 +10,7 @@ letters = re.findall(r'[A-Z]', signal)
 message = ''.join(letters[2::3])
 print(f"Hidden message: {message}")
 
-# Step 2: Extrat numbers and analyze
+# Step 2: Extract numbers and analyze
 numbers = [int(n) for n in re.findall(r'\d', signal)]
 stats = {
     'mean': np.mean(numbers),

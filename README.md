@@ -30,9 +30,12 @@ It's a mix of numbers (0-9) and letters (A-Z). The hidden message is encoded in 
     - Calculate basic stats: mean, median, and standard deviation (use NumPy or Pandas).
     - Count how many times each letter appears in the full signal (use a dictionary or Pandas).
 
+
 3. **Visualize It** (10 min):
     - Create a quick plot with Matplotlib: a bar chart of letter frequencies.
     - Save the plot as `cosmic_signal.png` for your portfolio.
+
+        ![Cosmic Signal Letter Frequencies](cosmic_signal.png)
 
 4. **Stretch Goal** (if time allows):
     - Check if the numeric sequence has any patterns (e.g., is it random, or does it follow a simple rule like alternating odd/even?). Print a one-sentence hypothesis.

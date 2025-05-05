@@ -12,6 +12,8 @@ print(f"Hidden message: {message}")
 
 # Step 2: Extract numbers and analyze
 numbers = [int(n) for n in re.findall(r'\d', signal)]
+print(f"Numbers: {numbers}")
+
 stats = {
     'mean': np.mean(numbers),
     'median': np.median(numbers),
